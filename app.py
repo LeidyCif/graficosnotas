@@ -9,8 +9,9 @@ df = pd.read_csv("Notaslimpias.csv")
 
 #iniciar la aplicacion
 app = dash.Dash(__name__)
-# Para que Render pueda ejecutarlo
+
 server = app.server
+
 app.title = "Dashboard de Notas"
  
  #crear el layout
